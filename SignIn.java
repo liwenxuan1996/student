@@ -1,4 +1,10 @@
+
 public class Sign In {
 	private int id;
-	private int name;
+
+	private String name;
+	public void signIn(){
+		System.out.println(name);
+	}
+
 }
